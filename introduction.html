@@ -1,0 +1,711 @@
+
+
+<!-- DOCUMENTATION LAYOUT -->
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="keywords" content="">
+
+      <title>Docthebuilder | Introduction</title>
+
+      <!-- Styles -->
+      <link rel="stylesheet" href="https://docthebuilder.thecodestudio.xyz/space/css/font-awesome.css">
+      <link rel="stylesheet" href="https://docthebuilder.thecodestudio.xyz/doc_theme/documentation/theme_one/css/page.css">
+      <link rel="stylesheet" href="https://docthebuilder.thecodestudio.xyz/doc_theme/documentation/theme_one/css/style.css">
+
+      <!-- Favicons -->
+      <link rel="apple-touch-icon" href="https://docthebuilder.thecodestudio.xyz//favicon.png">
+      <link rel="icon" href="https://docthebuilder.thecodestudio.xyz//favicon.png">
+      
+    </head>
+
+    <script>
+      "use strict"
+
+      function myStyle() {
+
+        var leftSidebarUl = document.querySelector('.left-sidebar ul');
+        leftSidebarUl.classList.add('h5');
+
+        var rightSidebarUl = document.querySelector('.right-sidebar ul');
+        rightSidebarUl.classList.add('toc');
+
+      }
+
+      // JavaScript function to show the preloader
+        window.addEventListener('load', () => {
+          myStyle();
+        const preloader = document.getElementById("preloader");
+          setTimeout(() => {
+            preloader.style.display = "none";
+          }, 1000); // 1 second delay
+        });
+    </script>
+
+    <body>
+
+    <div id="preloader">
+      <script src="https://cdn.lordicon.com/fudrjiwc.js"></script>
+            <lord-icon
+                src="https://cdn.lordicon.com/ggqtvqxi.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#104891"
+                style="width:250px;height:250px">
+            </lord-icon>    </div>
+
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark navbar-stick-dark" data-navbar="static">
+        <div class="container">
+
+          <div class="navbar-left">
+            <button class="navbar-toggler" type="button">&#9776;</button>
+            <a class="navbar-brand text-dark" href="">
+              Docthebuilder            </a>
+
+            <span class="text-monospace d-md-none d-xl-none">
+              v1.0            </span>
+
+            <span class="d-md-none d-xl-none ml-6 position-relative">
+              <form class="w-100">
+                <div class="input-group b-0 focus">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="ti-search"></i></span>
+                  </div>
+                  <input type="text" class="form-control" id="searchInputMobile" placeholder="Search documentation ...">
+                </div>
+              </form>
+
+              <ul class="list-group" id="searchResultsMobile">
+                <!-- search results goes here -->
+              </ul>
+
+            </span>
+
+          </div>
+
+          <section class="navbar-mobile">
+            <span class="navbar-divider d-mobile-none"></span>
+
+            <ul class="nav nav-navbar">
+
+              <li class="nav-item text-monospace">
+                  v1.0              </li>
+
+            </ul>
+          </section>
+
+          <section class="navbar-mobile position-relative d-mobile-none">
+            <form class="w-100">
+              <div class="input-group b-0 focus">
+                <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="ti-search"></i></span>
+                </div>
+                <input type="text" class="form-control" id="searchInput" placeholder="Search documentation ...">
+              </div>
+            </form>
+
+            <ul class="list-group" id="searchResults">
+              <!-- search results will appear here -->
+            </ul>
+
+          </section>
+
+                      
+            <a class="d-mobile-none text-monospace w-100 text-right text-muted font-weight-bold" href="https://docthebuilder.thecodestudio.xyz" target="_blank">
+              <img src="https://docthebuilder.thecodestudio.xyz/favicon.png" alt="The Code Studio" class="w25">
+                
+              Powered By DocTheBuilder            </a>
+
+                      
+        </div>
+      </nav><!-- /.navbar -->
+
+      <!-- Main Content -->
+      <main class="main-content">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-3 col-xl-3">
+              <hr class="d-md-none my-0">
+              <aside class="sidebar sidebar-expand-md sidebar-sticky pr-md-4 br-1 left-sidebar">
+                  <ul>
+<li>
+<a href="introduction.md">Introduction</a>
+</li>
+<li>
+<a href="server-requirements.md">Server Requirements</a>
+</li>
+<li>
+<a href="installation-steps.md">Installation Steps</a>
+</li>
+<li>
+<a href="sign-in-credential.md">Sign in Credential</a>
+</li>
+<li>
+<a href="usage.md">Usage</a>
+</li>
+<li>
+<a href="support.md">Support</a>
+</li>
+</ul>
+              </aside>
+            </div>
+
+            <div class="col-md-7 col-xl-7 ml-md-auto py-6">
+
+            <div class="middle-content">
+              
+              
+              <h1><a class="permalink" href="?doc=cd804eb4#docthebuilder-documentation-builder-and-amp-book-publishing-saas-application"><span>#</span></a><a class="anchor" id="docthebuilder-documentation-builder-and-amp-book-publishing-saas-application"></a>DocTheBuilder - Documentation Builder &amp; Book Publishing SaaS Application</h1>
+<h1><a class="permalink" href="?doc=cd804eb4#stronggetting-started-strong"><span>#</span></a><a class="anchor" id="stronggetting-started-strong"></a><strong>Getting Started</strong></h1>
+<p><strong>Attention:</strong></p>
+<p>This documentation you are reading is built with DocTheBuilder.</p>
+<h2><a class="permalink" href="?doc=cd804eb4#strongintroduction-strong"><span>#</span></a><a class="anchor" id="strongintroduction-strong"></a><strong>Introduction</strong></h2>
+<p>DocTheBuilder is a powerful documentation builder and book publishing SaaS application that allows users to create professional-grade documentation with no coding required. Whether you're a technical writer or a non-technical user familiar with tools like MS Word or Google Docs, DocTheBuilder makes it easy to create and publish high-quality documentation. With its export options, including HTML and PDF, you can easily share your work with others and even include a live preview feature. DocTheBuilder is the perfect tool for anyone looking to create professional-grade documentation with ease. DocTheBuilder also offers a Software as a Service (SaaS) feature, allowing users to access the application and all its features through the cloud. This means that users can access their documentation and work on it from anywhere, at any time, as long as they have an internet connection. The SaaS feature also allows for easy collaboration and team-based work, as multiple users can access and edit the same document simultaneously. With its SaaS feature, DocTheBuilder makes it easy to create and publish professional-grade documentation on the go.</p>
+              </div>
+
+                <div class="row">
+
+                 
+
+                  
+                  <div class="col-md-12">
+                    <a href="https://docthebuilder.thecodestudio.xyz/v1.0/docthebuilder/server-requirements">
+                      <div class="card border">
+                          <div class="card-body d-flex justify-content-between">
+                            <div>
+                              <small class="text-muted">Next</small>
+                              <br>
+                              <span class="text-dark h6">Server Requirements</span>
+                            </div>
+                            <div class="icon-center">
+                                <i class="fa fa-long-arrow-right text-dark"></i>
+                            </div>
+                          </div>
+                      </div>
+                    </a>
+                    
+                  </div>
+                  
+                                  </div>
+
+            </div>
+
+            <div class="col-md-2 col-xl-2">
+              <hr class="d-md-none my-0">
+              <aside class="sidebar right-sidebar">
+                <strong class="h6 fs-14 font-weight-bold">ON THIS PAGE</strong>
+                            <ul class="nav-level-0">
+                        <li>
+                <a href="#docthebuilder-documentation-builder-and-amp-book-publishing-saas-application">DocTheBuilder - Documentation Builder &amp; Book Publishing SaaS Application</a>
+                            </li>
+                    <li>
+                <a href="#stronggetting-started-strong"><strong>Getting Started</strong></a>
+                            <ul class="nav-level-1">
+                            <li>
+                <a href="#strongintroduction-strong"><strong>Introduction</strong></a>
+                            </li>
+                    </ul>
+                    </li>
+                </ul>
+                      </aside>
+            </div>
+
+          </div>
+        </div>
+      </main><!-- /.main-content -->
+
+
+      <!-- Footer -->
+      <footer class="footer py-5 text-center text-lg-center">
+        <div class="container">
+          <div class="row gap-y">
+            <div class="col-lg-12 text-center">
+              <p>
+                <a href="">
+                  Docthebuilder                </a><br>
+                © 2023 Powered By 
+                
+                <a href="https://docthebuilder.thecodestudio.xyz" target="_blank" class="font-weight-bold">
+                  <img src="https://docthebuilder.thecodestudio.xyz/favicon.png" alt="The Code Studio" class="w25">
+                    DocTheBuilder                </a>
+                
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer><!-- /.footer -->
+
+      <input type="hidden" value="/home2/thecode/docthebuilder.thecodestudio.xyz/files/docthebuilder/docthebuilder.json" id="space_json_path">
+      <input type="hidden" value="https://docthebuilder.thecodestudio.xyz/v1.0/docthebuilder/" id="site_url">
+
+      
+      <!-- Scripts -->
+      <script src="https://docthebuilder.thecodestudio.xyz/js/fuse.js"></script>
+      <script src="https://docthebuilder.thecodestudio.xyz/doc_theme/documentation/theme_one/js/page.js"></script>
+
+      <script>
+
+        "use strict"
+
+        var path = location.pathname;
+        var parts = path.split(/[\\/.]+/);
+        var baseName = parts.pop();
+
+          /**
+           * It splits the url into an array of parts, then returns the last part of the array
+           * 
+           * @return The last part of the url.
+           */
+          function getLastPart(url) {
+            const parts = url.split('/');
+            return parts.at(-1);
+          }
+
+          const links = document.querySelectorAll('a[href]');
+
+          /* Replacing the .md extension with .html extension. */
+          if (baseName == 'html') {
+            links.forEach(link => {
+                  link.href = getLastPart(link.href).replace(/\.md$/, '') + '.html';
+              });
+          }else {
+            links.forEach(link => {
+                  link.href = link.href.replace(/\.md$/, '');
+              });
+          }
+
+          // Search
+
+          /* Searching through the array of objects and returning the name and description of the object
+          that matches the search term. */
+
+          $('#searchInput').on('keyup', function() {
+                var searchTerm = $(this).val();
+                var space_json_path = $('#space_json_path').val();
+                var site_url = $('#site_url').val();
+
+              var data = {
+    "_sidebar.md": [
+        {
+            "level": 0,
+            "text": "Introduction",
+            "link": "introduction.md"
+        },
+        {
+            "level": 0,
+            "text": "Server Requirements",
+            "link": "server-requirements.md"
+        },
+        {
+            "level": 0,
+            "text": "Installation Steps",
+            "link": "installation-steps.md"
+        },
+        {
+            "level": 0,
+            "text": "Sign in Credential",
+            "link": "sign-in-credential.md"
+        },
+        {
+            "level": 0,
+            "text": "Usage",
+            "link": "usage.md"
+        },
+        {
+            "level": 0,
+            "text": "Support",
+            "link": "support.md"
+        }
+    ],
+    "installation-steps.md": [
+        {
+            "level": 1,
+            "text": "Installation Steps",
+            "link": "#installationsteps"
+        },
+        {
+            "level": 2,
+            "text": "Step 1",
+            "link": "#step1"
+        },
+        {
+            "level": 2,
+            "text": "Step 2",
+            "link": "#step2"
+        },
+        {
+            "level": 2,
+            "text": "Step 3",
+            "link": "#step3"
+        },
+        {
+            "level": 2,
+            "text": "Step 4",
+            "link": "#step4"
+        },
+        {
+            "level": 2,
+            "text": "Step 5",
+            "link": "#step5"
+        },
+        {
+            "level": 2,
+            "text": "Important Notice",
+            "link": "#importantnotice"
+        }
+    ],
+    "introduction.md": [
+        {
+            "level": 1,
+            "text": "DocTheBuilder - Documentation Builder & Book Publishing SaaS Application",
+            "link": "#docthebuilderdocumentationbuilderbookpublishingsaasapplication"
+        },
+        {
+            "level": 1,
+            "text": "Getting Started",
+            "link": "#gettingstarted"
+        },
+        {
+            "level": 2,
+            "text": "Introduction",
+            "link": "#introduction"
+        }
+    ],
+    "server-requirements.md": [
+        {
+            "level": 1,
+            "text": "Server Requirements",
+            "link": "#serverrequirements"
+        }
+    ],
+    "sign-in-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "signin-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "support.md": [
+        {
+            "level": 1,
+            "text": "Support",
+            "link": "#support"
+        },
+        {
+            "level": 2,
+            "text": "Overview",
+            "link": "#overview"
+        },
+        {
+            "level": 2,
+            "text": "Contact us",
+            "link": "#contactus"
+        }
+    ],
+    "usage.md": [
+        {
+            "level": 1,
+            "text": "Usage",
+            "link": "#usage"
+        },
+        {
+            "level": 1,
+            "text": "How to create space?",
+            "link": "#howtocreatespace"
+        },
+        {
+            "level": 2,
+            "text": "How to write?",
+            "link": "#howtowrite"
+        },
+        {
+            "level": 2,
+            "text": "How to Publish?",
+            "link": "#howtopublish"
+        },
+        {
+            "level": 2,
+            "text": "Front-End",
+            "link": "#frontend"
+        },
+        {
+            "level": 2,
+            "text": "Multi-Currency",
+            "link": "#multicurrency"
+        }
+    ]
+};
+
+              var options = {
+                  keys: ['text']
+              };
+
+              var fuse = new Fuse(Object.values(data).reduce((acc, val) => acc.concat(val), []), options);
+
+              var searchTerm = $(this).val();
+              var filteredData = fuse.search(searchTerm);
+              $('#searchResults').empty();
+              /* The above code is taking the search results and displaying them in the search results section. */
+              filteredData.forEach(function(result) {
+                  result = result.item;
+                  var re = new RegExp(searchTerm, 'gi');
+                  var highlightedText = result.text.replace(re, '<mark>'+searchTerm+'</mark>');
+                  var parentKey = Object.keys(data).find(key => data[key].includes(result));
+                  /* Checking to see if the parent key is not equal to the sidebar.md file. */
+                  if(parentKey !== "_sidebar.md"){
+                      if (baseName == 'html') {
+                        var parentKey = parentKey.replace('.md','.html');
+                        var result_link = result.link.replace('.md','.html');
+                        var href = parentKey + result_link;
+                      }else{
+                        var parentKey = parentKey.replace('.md','');
+                        var result_link = result.link.replace('.md','');
+                        var href = site_url + parentKey + result_link;
+                      }
+                      $('#searchResults').append('<li class="list-group-item search-li" onclick="RedirectTo(this)" data-link="' + href + '">' + highlightedText + '</li>');
+                  } else {
+                      if (baseName == 'html') {
+                        var parentKey = parentKey.replace('.md','.html');
+                        var result_link = result.link.replace('.md','.html');
+                        var href = result_link;
+                      }else{
+                        var parentKey = parentKey.replace('.md','');
+                        var result_link = result.link.replace('.md','');
+                        var href = site_url + result_link;
+                      }
+                      $('#searchResults').append('<li class="list-group-item search-li" onclick="RedirectTo(this)" data-link="' + href + '">' + highlightedText + '</li>');
+                  }
+              });
+            });
+
+            // For Mobile
+          $('#searchInputMobile').on('keyup', function() {
+                var searchTerm = $(this).val();
+                var space_json_path = $('#space_json_path').val();
+                var site_url = $('#site_url').val();
+
+              var data = {
+    "_sidebar.md": [
+        {
+            "level": 0,
+            "text": "Introduction",
+            "link": "introduction.md"
+        },
+        {
+            "level": 0,
+            "text": "Server Requirements",
+            "link": "server-requirements.md"
+        },
+        {
+            "level": 0,
+            "text": "Installation Steps",
+            "link": "installation-steps.md"
+        },
+        {
+            "level": 0,
+            "text": "Sign in Credential",
+            "link": "sign-in-credential.md"
+        },
+        {
+            "level": 0,
+            "text": "Usage",
+            "link": "usage.md"
+        },
+        {
+            "level": 0,
+            "text": "Support",
+            "link": "support.md"
+        }
+    ],
+    "installation-steps.md": [
+        {
+            "level": 1,
+            "text": "Installation Steps",
+            "link": "#installationsteps"
+        },
+        {
+            "level": 2,
+            "text": "Step 1",
+            "link": "#step1"
+        },
+        {
+            "level": 2,
+            "text": "Step 2",
+            "link": "#step2"
+        },
+        {
+            "level": 2,
+            "text": "Step 3",
+            "link": "#step3"
+        },
+        {
+            "level": 2,
+            "text": "Step 4",
+            "link": "#step4"
+        },
+        {
+            "level": 2,
+            "text": "Step 5",
+            "link": "#step5"
+        },
+        {
+            "level": 2,
+            "text": "Important Notice",
+            "link": "#importantnotice"
+        }
+    ],
+    "introduction.md": [
+        {
+            "level": 1,
+            "text": "DocTheBuilder - Documentation Builder & Book Publishing SaaS Application",
+            "link": "#docthebuilderdocumentationbuilderbookpublishingsaasapplication"
+        },
+        {
+            "level": 1,
+            "text": "Getting Started",
+            "link": "#gettingstarted"
+        },
+        {
+            "level": 2,
+            "text": "Introduction",
+            "link": "#introduction"
+        }
+    ],
+    "server-requirements.md": [
+        {
+            "level": 1,
+            "text": "Server Requirements",
+            "link": "#serverrequirements"
+        }
+    ],
+    "sign-in-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "signin-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "support.md": [
+        {
+            "level": 1,
+            "text": "Support",
+            "link": "#support"
+        },
+        {
+            "level": 2,
+            "text": "Overview",
+            "link": "#overview"
+        },
+        {
+            "level": 2,
+            "text": "Contact us",
+            "link": "#contactus"
+        }
+    ],
+    "usage.md": [
+        {
+            "level": 1,
+            "text": "Usage",
+            "link": "#usage"
+        },
+        {
+            "level": 1,
+            "text": "How to create space?",
+            "link": "#howtocreatespace"
+        },
+        {
+            "level": 2,
+            "text": "How to write?",
+            "link": "#howtowrite"
+        },
+        {
+            "level": 2,
+            "text": "How to Publish?",
+            "link": "#howtopublish"
+        },
+        {
+            "level": 2,
+            "text": "Front-End",
+            "link": "#frontend"
+        },
+        {
+            "level": 2,
+            "text": "Multi-Currency",
+            "link": "#multicurrency"
+        }
+    ]
+};
+
+              var options = {
+                  keys: ['text']
+              };
+
+              var fuse = new Fuse(Object.values(data).reduce((acc, val) => acc.concat(val), []), options);
+
+              var searchTerm = $(this).val();
+              var filteredData = fuse.search(searchTerm);
+              $('#searchResultsMobile').empty();
+              /* The above code is taking the search results and displaying them in the search results section. */
+              filteredData.forEach(function(result) {
+                  result = result.item;
+                  var re = new RegExp(searchTerm, 'gi');
+                  var highlightedText = result.text.replace(re, '<mark>'+searchTerm+'</mark>');
+                  var parentKey = Object.keys(data).find(key => data[key].includes(result));
+                  /* Checking to see if the parent key is not equal to the sidebar.md file. */
+                  if(parentKey !== "_sidebar.md"){
+                      if (baseName == 'html') {
+                        var parentKey = parentKey.replace('.md','.html');
+                        var result_link = result.link.replace('.md','.html');
+                        var href = parentKey + result_link;
+                      }else{
+                        var parentKey = parentKey.replace('.md','');
+                        var result_link = result.link.replace('.md','');
+                        var href = site_url + parentKey + result_link;
+                      }
+                      $('#searchResultsMobile').append('<li class="list-group-item search-li" onclick="RedirectTo(this)" data-link="' + href + '">' + highlightedText + '</li>');
+                  } else {
+                      if (baseName == 'html') {
+                        var parentKey = parentKey.replace('.md','.html');
+                        var result_link = result.link.replace('.md','.html');
+                        var href = result_link;
+                      }else{
+                        var parentKey = parentKey.replace('.md','');
+                        var result_link = result.link.replace('.md','');
+                        var href = site_url + result_link;
+                      }
+                      $('#searchResultsMobile').append('<li class="list-group-item search-li" onclick="RedirectTo(this)" data-link="' + href + '">' + highlightedText + '</li>');
+                  }
+              });
+            });
+
+          /**
+           * It takes the data-link attribute of the list item that was clicked and sets the
+           * window.location.href to that value
+           */
+          function RedirectTo(li) {
+            window.location.href = li.getAttribute('data-link');
+          }
+          
+      </script>
+    </body>
+  </html>
+<!-- DOCUMENTATION LAYOUT::ENDS -->
+

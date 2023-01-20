@@ -1,0 +1,158 @@
+{
+    "_sidebar.md": [
+        {
+            "level": 0,
+            "text": "Introduction",
+            "link": "introduction.md"
+        },
+        {
+            "level": 0,
+            "text": "Server Requirements",
+            "link": "server-requirements.md"
+        },
+        {
+            "level": 0,
+            "text": "Installation Steps",
+            "link": "installation-steps.md"
+        },
+        {
+            "level": 0,
+            "text": "Sign in Credential",
+            "link": "sign-in-credential.md"
+        },
+        {
+            "level": 0,
+            "text": "Usage",
+            "link": "usage.md"
+        },
+        {
+            "level": 0,
+            "text": "Support",
+            "link": "support.md"
+        }
+    ],
+    "installation-steps.md": [
+        {
+            "level": 1,
+            "text": "Installation Steps",
+            "link": "#installationsteps"
+        },
+        {
+            "level": 2,
+            "text": "Step 1",
+            "link": "#step1"
+        },
+        {
+            "level": 2,
+            "text": "Step 2",
+            "link": "#step2"
+        },
+        {
+            "level": 2,
+            "text": "Step 3",
+            "link": "#step3"
+        },
+        {
+            "level": 2,
+            "text": "Step 4",
+            "link": "#step4"
+        },
+        {
+            "level": 2,
+            "text": "Step 5",
+            "link": "#step5"
+        },
+        {
+            "level": 2,
+            "text": "Important Notice",
+            "link": "#importantnotice"
+        }
+    ],
+    "introduction.md": [
+        {
+            "level": 1,
+            "text": "DocTheBuilder - Documentation Builder & Book Publishing SaaS Application",
+            "link": "#docthebuilderdocumentationbuilderbookpublishingsaasapplication"
+        },
+        {
+            "level": 1,
+            "text": "Getting Started",
+            "link": "#gettingstarted"
+        },
+        {
+            "level": 2,
+            "text": "Introduction",
+            "link": "#introduction"
+        }
+    ],
+    "server-requirements.md": [
+        {
+            "level": 1,
+            "text": "Server Requirements",
+            "link": "#serverrequirements"
+        }
+    ],
+    "sign-in-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "signin-credential.md": [
+        {
+            "level": 1,
+            "text": "Sign in Credential",
+            "link": "#signincredential"
+        }
+    ],
+    "support.md": [
+        {
+            "level": 1,
+            "text": "Support",
+            "link": "#support"
+        },
+        {
+            "level": 2,
+            "text": "Overview",
+            "link": "#overview"
+        },
+        {
+            "level": 2,
+            "text": "Contact us",
+            "link": "#contactus"
+        }
+    ],
+    "usage.md": [
+        {
+            "level": 1,
+            "text": "Usage",
+            "link": "#usage"
+        },
+        {
+            "level": 1,
+            "text": "How to create space?",
+            "link": "#howtocreatespace"
+        },
+        {
+            "level": 2,
+            "text": "How to write?",
+            "link": "#howtowrite"
+        },
+        {
+            "level": 2,
+            "text": "How to Publish?",
+            "link": "#howtopublish"
+        },
+        {
+            "level": 2,
+            "text": "Front-End",
+            "link": "#frontend"
+        },
+        {
+            "level": 2,
+            "text": "Multi-Currency",
+            "link": "#multicurrency"
+        }
+    ]
+}
